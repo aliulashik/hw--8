@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home</title>
+    <meta name="description" content="this vloging website.">
+    <meta name="keywords" content="WtTF, animals, lion, tiger">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="1 days">
+    <meta name="author" content="Home">
+
+	<link rel="icon" type="image/x-icon" href="fiv-fish.png">
+	<link rel="stylesheet"href="css/style.css">
+	<style>
+
+		h2{color: red;}
+
+	</style>
+    
+   
+
+    <style>body {background-color:lightblue ;}</style>
+</head>
+<body>
+ <a href="index.html">Home</a>
+ <a href="pages/about/about.html">About</a>
+ <a href="pages/contact.html">contact</a>
+
+<!--animal detelis-->
+
+	<h1 id="head-1">Animal</h1>
+	<p><strong><abbr title="World Wide fund For Nature">WWF</abbr></strong> stands for <code>World Wide Fund for Nature</code>, an international non-governmental organization founded in 1961. Its mission is to conserve nature and reduce the most pressing threats to the diversity of life on Earth. habitat protection, and promoting sustainable practices. WWF's <q>famous panda logo symbolizes its commitment to protecting endangered species globally</q>.</p>
+
+    <ul>                
+        <li>Lion</li>
+    	<li>Tiger</li>     
+    	<li>Horse</li>      
+    </ul>               
+
+<hr>
+    <em><h2>Lion</h2></em>
+    <p>The lion, known as the “King of the <del>luser</del> <ins> Jungle</ins>, is a powerful and majestic animal. Lions live in groups called prides, where lionesses hunt and care for cubs, while males protect the territory. With strength, courage, and leadership, the lion symbolizes bravery and is admired worldwide.</p>
+    
+
+ <button onclick="showContent()">Show hidden content</button>
+
+<template>
+  <h2>lion</h2>
+  <img src="img/lion.jpg" width="214" height="204">
+</template>
+
+<script>
+function showContent() {
+  let temp = document.getElementsByTagName("template")[0];
+  let clon = temp.content.cloneNode(true);
+  document.body.appendChild(clon);
+}
+</script>
+ <hr>
+    <em><h2>Tiger</h2></em>
+    <p>Tigers live in diverse habitats, from tropical forests to grasslands. They are apex predators, feeding mainly on deer, wild boar, and other mammals. Unlike most cats, tigers enjoy water and are excellent swimmers. Sadly, they face threats from habitat loss and poaching, putting their survival at great risk today.</p>
+    
+    <i><h2 id="head-2.1">Horse</h2></i>	
+    <p>The horse is a strong and <b>graceful animal</b>, valued by humans for transport, farming, and companionship. Known for speed and endurance, horses have played vital roles in history and culture. They live in herds, communicate through body language, and and loyalty freedom,  across many traditions and societies.</p>
+<hr>
+
+    <p>Here is a quote From <strong><abbr title="World Wide fund For Nature">WWF</abbr></strong>'s website :</p>
+    <blockquote cite="file:///C:/Users/HP/OneDrive/Desktop/hw-8/index.html">For 50 years,<strong><dfn><abbr title="World Wide fund For Nature">WWF</abbr></dfn></strong> has been protecting the future of nature. The <marK>world's</marK> leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to <s>5 million </s> globally.</blockquote>
+<hr>
+    <img src="img/Earth_The_Sequel.jpg" alt="book" width="200">
+    <p><b><cite>Earth The Sequel</cite></b> most fomus book in the world</p>
+<hr>
+    
+    <dl>
+        <dt>Lion</dt>
+        <dd>African lion</dd>
+        <dt>Tiger</dt>
+        <dd>African Tiger</dd>
+    </dl>
+
+
+    <dialog open><b>Open WWF</b></dialog><br>
+
+
+    <details>
+        <summary>WWF</summary>
+        <p>The World Wide Fund for Nature <a href="tags/tag_base.asp">(WWF) </a>works globally to protect wildlife, restore ecosystems, and combat climate change. By promoting sustainability and conservation, WWF ensures a healthier planet for people, animals, and future generations.</p>
+    </details>
+
+</body>
+</html>
